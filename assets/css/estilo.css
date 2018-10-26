@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-h1, h3, h6, p{
+h1, h5, p{
     margin: 0;
 } 
 h1 {
@@ -50,7 +50,7 @@ p{
     justify-content: flex-start;
 }
 #icones li{
-    background-color: gray;
+    background-color: rgba(8, 8, 8, 0.562);
     border-radius: 50%;
     padding: 10px;
     margin-right: 10px;
@@ -138,4 +138,52 @@ p{
 }
 #video{
     border-radius: 50%;
+}
+#secao-4, h5{
+    margin: 33px;
+    justify-content: center;
+   text-align: center;
+   padding: 3px 143px;
+}
+.icones2{
+    
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+.icones2 ul{
+    padding: 10px;
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icones2 li{
+    background-color: rgb(172, 165, 165);
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer{
+    display: flex;
+    margin: 5%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: lightgray;
+    padding: 50px 226px;
+    border: 10px;
+}
+.rodape p{
+    color: lightgray; 
 }
